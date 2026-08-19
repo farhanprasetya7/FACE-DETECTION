@@ -200,18 +200,3 @@ Kotak **merah** = wajah terdeteksi tapi keyakinan classifier di bawah ambang bat
 - **Model deteksi lebih modern**: ganti SSD ResNet-10 dengan MTCNN, RetinaFace,
   atau YOLO-Face untuk akurasi lebih tinggi pada kondisi ekstrem (wajah sangat
   kecil, sangat gelap, dsb).
-
-## Catatan untuk Laporan/Tugas
-
-- Seluruh tahap ekstraksi fitur (deteksi maupun embedding wajah) memakai
-  **jaringan neural konvolusional (CNN) pretrained**, bukan fitur tangan
-  (hand-crafted features) seperti Haar Cascade, HOG, LBPH, atau Eigenface.
-- SVM di tahap akhir **bukan** bagian dari ekstraksi fitur — ia hanya lapisan
-  klasifikasi tipis di atas fitur yang sudah dipelajari CNN. Ini adalah desain
-  yang umum dipakai di banyak paper face recognition (embedding CNN + classifier
-  ringan), berbeda dengan pipeline "konvensional" yang sepenuhnya tanpa neural
-  network.
-- Referensi konsep: *FaceNet: A Unified Embedding for Face Recognition and
-  Clustering* (Schroff et al., 2015) — dasar pendekatan embedding wajah yang
-  dipakai OpenFace pada proyek ini.
-"# FACE-DETECTION" 

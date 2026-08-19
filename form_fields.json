@@ -1,0 +1,14 @@
+[
+    {
+        "key": "jurusan",
+        "label": "Jurusan/Prodi"
+    },
+    {
+        "key": "no_hp",
+        "label": "No. HP/WhatsApp"
+    },
+    {
+        "key": "semester",
+        "label": "Semester"
+    }
+]

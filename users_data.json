@@ -1,0 +1,26 @@
+{
+    "760110_AstraLanzs": {
+        "status": "Aktif",
+        "sampai": "",
+        "biodata": {
+            "nama_depan": "",
+            "nama_belakang": "",
+            "nim": "",
+            "jurusan": "",
+            "no_hp": "",
+            "semester": ""
+        }
+    },
+    "152024121_Hasanjr": {
+        "status": "Aktif",
+        "sampai": "",
+        "biodata": {
+            "nama_depan": "Hasan",
+            "nama_belakang": "jr",
+            "nim": "152024121",
+            "jurusan": "Teknik Informatika",
+            "no_hp": "098888",
+            "semester": "6"
+        }
+    }
+}
